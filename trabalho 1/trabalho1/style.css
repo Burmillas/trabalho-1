@@ -1,0 +1,85 @@
+#inicio {
+    background: linear-gradient(135deg, #c82000 0%, #800000 100%);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+#avaliacoes .card {
+    height: 100%;
+}
+
+#avaliacoes .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+}
+
+#avaliacoes .card-body .card-text:first-child {
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.card-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #c82000;
+    margin-bottom: 0.75rem;
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+footer .footer-links li {
+    line-height: 1.8;
+}
+
+.detail-image-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.08);
+}
+
+.detail-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.detail-price {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #c82000;
+}
+
+.detail-info li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.ingredient-list li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.25rem;
+}
+
+.ingredient-list li::before {
+    content: "•";
+    color: #c82000;
+    display: inline-block;
+    width: 1rem;
+}
+
+@media (max-width: 767px) {
+    .detail-image-card {
+        margin-bottom: 2rem;
+    }
+}
